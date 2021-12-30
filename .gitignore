@@ -1,7 +1,7 @@
 .vscode
 NoSQLWithCSharp/.vs/
-NoSQLWithCSharp/NoSQLDemo.UI/bin/
-NoSQLWithCSharp/NoSQLDemo.UI/obj/
+NoSQLWithCSharp/NoSQLWithCSharp.UI/bin/
+NoSQLWithCSharp/NoSQLWithCSharp.UI/obj/
 NoSQLWithCSharp/NoSQLWithCSharp.Common/bin/
 NoSQLWithCSharp/NoSQLWithCSharp.Common/obj/
 NoSQLWithCSharp/NoSQLWithCSharp.MongoDB/bin/
