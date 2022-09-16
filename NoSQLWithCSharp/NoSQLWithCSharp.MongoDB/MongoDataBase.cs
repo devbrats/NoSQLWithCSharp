@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using MongoDB.Driver;
-using NoSQLWithCSharp.Common;
+using NoSQLWithCSharp.Contracts;
 
 namespace NoSQLWithCSharp.MongoDB
 {

@@ -1,4 +1,4 @@
-﻿namespace NoSQLWithCSharp.Common
+﻿namespace NoSQLWithCSharp.UI
 {
     public class Configuration
     {

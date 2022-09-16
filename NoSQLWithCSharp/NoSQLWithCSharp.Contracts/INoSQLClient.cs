@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace NoSQLWithCSharp.Common
+﻿namespace NoSQLWithCSharp.Contracts
 {
     public interface INoSQLClient
     {

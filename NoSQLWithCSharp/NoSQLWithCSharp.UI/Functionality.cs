@@ -2,9 +2,9 @@
 
 namespace NoSqlWithCSharp.UI
 {
-    public class Functionality
+    public class AppFunctionality
     {
-        public Functionality(string name, Action function)
+        public AppFunctionality(string name, Action function)
         {
             Name = name;
             Function = function;

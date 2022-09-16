@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using MongoDB.Driver;
-using NoSQLWithCSharp.Common;
+using NoSQLWithCSharp.Contracts;
 
 namespace NoSQLWithCSharp.MongoDB
 {
@@ -36,6 +36,11 @@ namespace NoSQLWithCSharp.MongoDB
         {
             var filter = Builders<T>.Filter.Eq("_id", id);
             return _collection.FindSync(filter).FirstOrDefault();
+        }
+
+        public void Update(T updatedItem)
+        {
+            throw new System.NotImplementedException();
         }
     }
   

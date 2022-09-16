@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-
-namespace NoSQLWithCSharp.Common
+﻿namespace NoSQLWithCSharp.Contracts
 {
     public interface IDataStore<T>
     {
@@ -12,5 +9,7 @@ namespace NoSQLWithCSharp.Common
         void DeleteItem(string id);
 
         T GetItem(string id);
+
+        void Update(T updatedItem);
     }
 }

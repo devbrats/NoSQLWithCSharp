@@ -1,5 +1,6 @@
-﻿using NoSQLWithCSharp.Common;
-using NoSQLWithCSharp.Common.Entity;
+﻿using NoSQLWithCSharp.Contracts;
+using NoSQLWithCSharp.UI;
+using NoSQLWithCSharp.UI.Model;
 using System;
 using System.Collections.Generic;
 
@@ -10,7 +11,7 @@ namespace NoSqlWithCSharp.UI
         private IDataStore<User> _userDataStore;
         private INoSQLDB _db;
         private INoSQLClient _client;
-        private List<Functionality> _functionalities;
+        private List<AppFunctionality> _functionalities;
 
         public MongoApp()
         {
@@ -57,13 +58,13 @@ namespace NoSqlWithCSharp.UI
 
         private void Init()
         {
-            _functionalities = new List<Functionality>();
-            _functionalities.Add(new Functionality("Show All Databases", ShowAllDBS));
-            _functionalities.Add(new Functionality("Delete Database", DeleteDB));
-            _functionalities.Add(new Functionality("Add User", AddUser));
-            _functionalities.Add(new Functionality("Fetch All Users", FetchAllUsers));
-            _functionalities.Add(new Functionality("Get User", GetUser));
-            _functionalities.Add(new Functionality("Delete User", DeleteUser));
+            _functionalities = new List<AppFunctionality>();
+            _functionalities.Add(new AppFunctionality("Show All Databases", ShowAllDBS));
+            _functionalities.Add(new AppFunctionality("Delete Database", DeleteDB));
+            _functionalities.Add(new AppFunctionality("Add User", AddUser));
+            _functionalities.Add(new AppFunctionality("Fetch All Users", FetchAllUsers));
+            _functionalities.Add(new AppFunctionality("Get User", GetUser));
+            _functionalities.Add(new AppFunctionality("Delete User", DeleteUser));
         }
 
         private void SeedUsersData()
