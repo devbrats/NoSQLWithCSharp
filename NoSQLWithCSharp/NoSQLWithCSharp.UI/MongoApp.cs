@@ -1,6 +1,6 @@
-﻿using NoSQLWithCSharp.Contracts;
+﻿using NoSQLWithCSharp.Data;
+using NoSQLWithCSharp.MongoDB.Model;
 using NoSQLWithCSharp.UI;
-using NoSQLWithCSharp.UI.Model;
 using System;
 using System.Collections.Generic;
 
@@ -15,7 +15,7 @@ namespace NoSqlWithCSharp.UI
 
         public MongoApp()
         {
-            Console.WriteLine("|| NoQLWithCSharp ||");
+            Console.WriteLine("|| NoSQLWithCSharp ||");
             _client = DataStoreFactory.GetNoSQLClient();
             _db = _client.CreateDB(Configuration.DBName);
             _userDataStore = DataStoreFactory.GetUserDataStore(_db);

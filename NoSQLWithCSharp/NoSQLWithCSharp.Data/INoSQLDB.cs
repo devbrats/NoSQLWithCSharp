@@ -1,4 +1,4 @@
-﻿namespace NoSQLWithCSharp.Contracts
+﻿namespace NoSQLWithCSharp.Data
 {
     public interface INoSQLDB
     {

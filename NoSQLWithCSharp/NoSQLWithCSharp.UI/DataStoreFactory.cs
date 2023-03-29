@@ -1,7 +1,7 @@
-﻿using NoSQLWithCSharp.Contracts;
+﻿using NoSQLWithCSharp.Data;
 using NoSQLWithCSharp.MongoDB;
+using NoSQLWithCSharp.MongoDB.Model;
 using NoSQLWithCSharp.UI;
-using NoSQLWithCSharp.UI.Model;
 
 namespace NoSqlWithCSharp.UI
 {

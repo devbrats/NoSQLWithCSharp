@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NoSQLWithCSharp.Contracts\NoSQLWithCSharp.Contracts.csproj" />
     <ProjectReference Include="..\NoSQLWithCSharp.MongoDB\NoSQLWithCSharp.MongoDB.csproj" />
   </ItemGroup>
 

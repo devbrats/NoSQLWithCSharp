@@ -1,7 +1,7 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson.Serialization.IdGenerators;
 
-namespace NoSQLWithCSharp.UI.Model
+namespace NoSQLWithCSharp.MongoDB.Model
 {
     public class User
     {

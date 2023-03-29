@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using MongoDB.Driver;
-using NoSQLWithCSharp.Contracts;
+using NoSQLWithCSharp.Data;
 
 namespace NoSQLWithCSharp.MongoDB
 {

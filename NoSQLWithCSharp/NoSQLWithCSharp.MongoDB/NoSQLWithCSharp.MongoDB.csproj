@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NoSQLWithCSharp.Contracts\NoSQLWithCSharp.Contracts.csproj" />
+    <ProjectReference Include="..\NoSQLWithCSharp.Data\NoSQLWithCSharp.Data.csproj" />
   </ItemGroup>
 
 </Project>
